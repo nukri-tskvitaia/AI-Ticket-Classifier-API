@@ -1,0 +1,6 @@
+@AiTicketClassifier.Api_HostAddress = http://localhost:5056
+
+POST {{AiTicketClassifier.Api_HostAddress}}/api/tickets
+Accept: application/json
+
+###
