@@ -31,14 +31,3 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 await app.RunAsync();
-
-/*
-  "Claude": {
-    "ApiKey": "your_cloude_api_key",
-    "Version": "model_year_value",
-    "Model": "model_id_value",
-    "MaxTokens": max_tokens_value,
-    "Temperature": temperature_value,
-    "MessagesEndpointUrl": "messages_endpoint_url_value"
-  }
-*/
